@@ -1,0 +1,10 @@
+[files]
+"fish/"                     = "~/.config/fish/"
+"gh/"                       = "~/.config/gh/"
+"ghostty/"                  = "~/.config/ghostty/"
+"kitty/"                    = "~/.config/kitty/"
+"nuch/"                     = "~/.config/nuch/"
+"nvim/"                     = "~/.config/nvim/"
+"tmux/"                     = "~/.config/tmux/"
+"git/.gitconfig"            = "~/.gitconfig"
+"aerospace/.aerospace.toml" = "~/.aerospace.toml"

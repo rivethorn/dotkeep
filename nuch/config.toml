@@ -1,0 +1,8 @@
+[working]
+files = "Documents/blog"
+images = "Documents/blog/images"
+
+[[collection]]
+name = "writing"
+files = "/Users/rivethorn/Documents/GitHub/hq/content/writings"
+images = "/Users/rivethorn/Documents/GitHub/hq/public/posts"
