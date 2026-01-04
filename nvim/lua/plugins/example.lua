@@ -234,12 +234,13 @@ return {
 
   {
     "guttenbergovitz/guttenbergovitz-theme",
+    enabled = false,
     -- lazy = false,
     -- priority = 1000,
     config = function()
       vim.opt.termguicolors = true
       require("guttenbergovitz").setup()
-      vim.cmd.colorscheme("guttenbergovitz")
+      -- vim.cmd.colorscheme("guttenbergovitz")
     end,
   },
 
@@ -271,7 +272,7 @@ return {
     lazy = false,
     priority = 1000,
     config = function()
-      vim.cmd("colorscheme compline")
+      vim.cmd.colorscheme("compline")
     end,
   },
 
@@ -279,7 +280,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      -- colorscheme = "compline",
+      colorscheme = "compline",
     },
   },
 
