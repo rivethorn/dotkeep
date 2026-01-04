@@ -35,7 +35,7 @@ alias lt='eza --icons=auto --tree' # list folder as tree
 
 alias sb='nvim ~/Documents/GitHub/Second-Brain/ROOT.md'
 
-alias vconf='nvim ~/.config/nvim/'
+alias vconf='nvim ~/dotkeep/nvim/'
 
 # Handy change dir shortcuts
 abbr .. 'cd ..'
