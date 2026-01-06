@@ -247,6 +247,7 @@ return {
   {
     "xiyaowong/transparent.nvim",
     lazy = false,
+    enabled = false,
   },
 
   {
@@ -272,16 +273,8 @@ return {
     lazy = false,
     priority = 1000,
     config = function()
-      vim.cmd.colorscheme("compline")
+      -- vim.cmd.colorscheme("compline")
     end,
-  },
-
-  -- Configure LazyVim to load gruvbox
-  {
-    "LazyVim/LazyVim",
-    opts = {
-      colorscheme = "compline",
-    },
   },
 
   {
@@ -300,5 +293,35 @@ return {
     config = function()
       require("inlay-hints").setup()
     end,
+  },
+
+  {
+    "wtfox/jellybeans.nvim",
+    lazy = false,
+    priority = 1000,
+    opts = {
+      transparent = true,
+      italics = false,
+      bold = true,
+      flat_ui = false, -- toggles "flat UI" for pickers
+      background = {
+        dark = "jellybeans", -- default dark palette
+        light = "jellybeans_light", -- default light palette
+      },
+      plugins = {
+        all = false,
+        auto = true, -- will read lazy.nvim and apply the colors for plugins that are installed
+      },
+      on_highlights = function(highlights, colors) end,
+      on_colors = function(colors) end,
+    },
+  },
+
+  -- Configure LazyVim to load gruvbox
+  {
+    "LazyVim/LazyVim",
+    opts = {
+      colorscheme = "jellybeans",
+    },
   },
 }
