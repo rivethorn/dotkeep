@@ -228,7 +228,7 @@ return {
       vim.g.gruvbox_material_enable_bold = true
       -- vim.g.gruvbox_material_background = "hard"
       -- vim.g.gruvbox_material_foreground = "mix"
-      -- vim.cmd.colorscheme("gruvbox-material")
+      vim.cmd.colorscheme("gruvbox-material")
     end,
   },
 
@@ -247,7 +247,6 @@ return {
   {
     "xiyaowong/transparent.nvim",
     lazy = false,
-    enabled = false,
   },
 
   {
@@ -317,11 +316,13 @@ return {
     },
   },
 
+  { "yardnsm/vim-import-cost" },
+
   -- Configure LazyVim to load gruvbox
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "jellybeans",
+      -- colorscheme = "jellybeans",
     },
   },
 }

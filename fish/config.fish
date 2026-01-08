@@ -63,3 +63,5 @@ set -ga fish_user_paths /Users/rivethorn/.nimble/bin
 set --export PATH ~/.local/bin/ $PATH
 set --export HOMEBREW_NO_ENV_HINTS 1
 set --export HAXE_STD_PATH /opt/homebrew/lib/haxe/std
+set -gx LDFLAGS -L/opt/homebrew/opt/zlib/lib
+set -gx CPPFLAGS -I/opt/homebrew/opt/zlib/include
