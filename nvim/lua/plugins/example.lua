@@ -228,19 +228,18 @@ return {
       vim.g.gruvbox_material_enable_bold = true
       -- vim.g.gruvbox_material_background = "hard"
       vim.g.gruvbox_material_foreground = "mix"
-      vim.cmd.colorscheme("gruvbox-material")
+      -- vim.cmd.colorscheme("gruvbox-material")
     end,
   },
 
   {
     "guttenbergovitz/guttenbergovitz-theme",
-    enabled = false,
-    -- lazy = false,
-    -- priority = 1000,
+    lazy = false,
+    priority = 1000,
     config = function()
       vim.opt.termguicolors = true
       require("guttenbergovitz").setup()
-      -- vim.cmd.colorscheme("guttenbergovitz")
+      vim.cmd.colorscheme("guttenbergovitz")
     end,
   },
 
