@@ -1,0 +1,105 @@
+{
+  "workbench.colorTheme": "Guttenbergovitz",
+  "editor.gotoLocation.multipleDefinitions": "goto",
+  "editor.fontSize": 18.3,
+  "editor.fontFamily": "'Terminus  (TTF)','Iosevka','Fira  Mono','Source Code Pro','Geist Mono', 'Yekan Bakh'",
+  "terminal.integrated.fontSize": 16,
+  "window.commandCenter": false,
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "editor.formatOnSave": true,
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "editor.stickyScroll.enabled": false,
+  "workbench.activityBar.location": "top",
+  "vim.autoindent": true,
+  "vim.highlightedyank.enable": true,
+  "vim.useSystemClipboard": true,
+  "vim.smartRelativeLine": true,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "python.analysis.inlayHints.functionReturnTypes": true,
+  "python.analysis.inlayHints.variableTypes": true,
+  "python.analysis.typeCheckingMode": "standard",
+  "python.analysis.completeFunctionParens": true,
+  "python.defaultInterpreterPath": "/Users/rivethorn/.local/bin/python3.15",
+  "ruff.format.backend": "uv",
+  "git.openRepositoryInParentFolders": "never",
+  "terminal.integrated.fontFamily": "SauceCodePro Nerd Font",
+  "go.inlayHints.assignVariableTypes": true,
+  "go.inlayHints.ignoredError": true,
+  "go.inlayHints.rangeVariableTypes": true,
+  "indentRainbow.indicatorStyle": "light",
+  "indentRainbow.lightIndicatorStyleLineWidth": 2,
+  "terminal.integrated.stickyScroll.enabled": false,
+  "files.associations": {
+    "*.css": "tailwindcss",
+  },
+  "editor.quickSuggestions": {
+    "strings": "on",
+  },
+  "tailwindCSS.classAttributes": [
+    "class",
+    "ui"
+  ],
+  "tailwindCSS.experimental.classRegex": [
+    [
+      "ui:\\s*{([^)]*)\\s*}",
+      "(?:'|\"|`)([^']*)(?:'|\"|`)"
+    ],
+  ],
+  "css.lint.unknownAtRules": "ignore",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1,
+  },
+  "editor.cursorBlinking": "phase",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "chat.tools.urls.autoApprove": {
+    "https://docs.rs": {
+      "approveRequest": false,
+      "approveResponse": true,
+    },
+  },
+  "mdc.enableComponentMetadataCompletions": true,
+  "[mdc]": {
+    "editor.defaultFormatter": "Nuxt.mdc",
+    "editor.folding": true,
+  },
+  "workbench.colorCustomizations": {
+    "terminal.background": "#00000000",
+  },
+  "window.titleBarStyle": "custom",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.biome": "always",
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "typescript.inlayHints.enumMemberValues.enabled": true,
+  "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "typescript.inlayHints.variableTypes.enabled": true,
+  "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "javascript.inlayHints.propertyDeclarationTypes.enabled": true,
+  "javascript.inlayHints.variableTypes.enabled": true,
+  "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
+  "terminal.integrated.gpuAcceleration": "off",
+  "window.systemColorTheme": "dark",
+  "window.autoDetectColorScheme": false,
+  "workbench.iconTheme": "vscode-icons",
+}
