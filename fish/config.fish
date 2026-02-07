@@ -65,3 +65,5 @@ set --export HOMEBREW_NO_ENV_HINTS 1
 set --export HAXE_STD_PATH /opt/homebrew/lib/haxe/std
 set -gx LDFLAGS -L/opt/homebrew/opt/zlib/lib
 set -gx CPPFLAGS -I/opt/homebrew/opt/zlib/include
+
+tirith init --shell fish | source
