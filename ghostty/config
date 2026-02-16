@@ -1,7 +1,7 @@
 clipboard-read = allow
 clipboard-write = allow
-background-opacity = 0.9
-background-blur = true
+background-opacity = 1
+background-blur = false
 background-blur-radius = 40
 theme = guttenbergovitz
 bold-is-bright = true
