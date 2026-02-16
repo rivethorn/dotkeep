@@ -18,7 +18,7 @@ end
 # Aliases
 alias c='clear'
 alias cls='clear'
-alias v='nvim'
+alias vi='nvim'
 alias lg='lazygit'
 alias mc='micro'
 alias cat='bat'
@@ -67,3 +67,7 @@ set -gx LDFLAGS -L/opt/homebrew/opt/zlib/lib
 set -gx CPPFLAGS -I/opt/homebrew/opt/zlib/include
 
 tirith init --shell fish | source
+
+export PATH="$PATH":"$HOME/.pub-cache/bin"
+export PUB_HOSTED_URL="https://pub.flutter-io.cn"
+export FLUTTER_STORAGE_BASE_URL="https://storage.flutter-io.cn"
