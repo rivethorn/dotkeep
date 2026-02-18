@@ -37,6 +37,9 @@ alias sb='nvim ~/Documents/GitHub/Second-Brain/ROOT.md'
 
 alias vconf='nvim ~/dotkeep/nvim/'
 
+abbr gc "git clone"
+abbr gc1 "git clone --depth 1"
+
 # Handy change dir shortcuts
 abbr .. 'cd ..'
 abbr ... 'cd ../..'
@@ -66,7 +69,7 @@ set --export HAXE_STD_PATH /opt/homebrew/lib/haxe/std
 set -gx LDFLAGS -L/opt/homebrew/opt/zlib/lib
 set -gx CPPFLAGS -I/opt/homebrew/opt/zlib/include
 
-tirith init --shell fish | source
+# tirith init --shell fish | source
 
 export PATH="$PATH":"$HOME/.pub-cache/bin"
 export PUB_HOSTED_URL="https://pub.flutter-io.cn"
