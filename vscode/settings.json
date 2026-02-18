@@ -1,8 +1,8 @@
 {
-  "workbench.colorTheme": "Guttenbergovitz",
+  "workbench.colorTheme": "Experimental Dark",
   "editor.gotoLocation.multipleDefinitions": "goto",
-  "editor.fontSize": 18.3,
-  "editor.fontFamily": "'Terminus  (TTF)','Iosevka','Fira  Mono','Source Code Pro','Geist Mono', 'Yekan Bakh'",
+  "editor.fontSize": 17,
+  "editor.fontFamily": "SF Mono, 'Yekan Bakh'",
   "terminal.integrated.fontSize": 16,
   "window.commandCenter": false,
   "[vue]": {
